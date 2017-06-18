@@ -157,6 +157,10 @@ hr.small {
 
 /* Header */
 
+.img-header {
+    padding: 5px;
+}
+
 .header {
     display: table;
     position: relative;
