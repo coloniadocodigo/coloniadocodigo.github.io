@@ -31,22 +31,13 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+                <a href="#top" onclick=$("#menu-close").click();>Início</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#about" onclick=$("#menu-close").click();>Sobre</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Contato</a>
             </li>
         </ul>
     </nav>
@@ -111,7 +102,8 @@
                     <h2>Serviços</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <!--<div class="col-md-3 col-sm-6">-->
+                            <div class="col-md-4 col-sm-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -121,10 +113,11 @@
                                     <strong>Cursos de Férias</strong>
                                 </h4>
                                 <p>Aproveite suas férias para aprender a programar.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="cursodeferias.html" class="btn btn-light">Mais sobre</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <!--<div class="col-md-3 col-sm-6">-->
+                            <div class="col-md-4 col-sm-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -134,10 +127,11 @@
                                     <strong>Curso regular</strong>
                                 </h4>
                                 <p>Aprofunde seus conhecimentos com um dos nossos cursos.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light">Mais sobre</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <!--<div class="col-md-3 col-sm-6">-->
+                            <div class="col-md-4 col-sm-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -146,11 +140,12 @@
                                 <h4>
                                     <strong>Workshops</strong>
                                 </h4>
-                                <p>Agende um horário para uma aula exclusiva.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <!--<p>Agende um horário para uma aula exclusiva.</p>-->
+                                <p>Monte uma aula exclusiva, no horário, tamanho e conteúdo ideal.</p>
+                                <a href="#" class="btn btn-light">Mais sobre</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                    <!--    <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -160,9 +155,10 @@
                                     <strong>Pais e filhos</strong>
                                 </h4>
                                 <p>Moldando o futuro juntos.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light">Mais sobre</a>
                             </div>
                         </div>
+                    -->
                     </div>
                     <!-- /.row (nested) -->
                 </div>
@@ -173,8 +169,69 @@
         <!-- /.container -->
     </section>
 
+    <!-- Contact -->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Entre em contato agora mesmo.</h2>
+                </div>
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <!--<div class="well well-sm">-->
+                <div class="formld">
+                <form>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" class="form-control" id="name" placeholder="Seu nome" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Seu email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Assunto</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Escolha:</option>
+                                <option value="service">Geral</option>
+                                <option value="suggestions">Cursos de Férias</option>
+                                <option value="product">Cursos Regulares</option>
+                                <option value="product">Workshops</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <label for="name">Mensagem</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Sua mensagem"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Enviar</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <!--<section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -211,17 +268,17 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                   <!-- <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
                 <!-- /.col-lg-10 -->
-            </div>
+         <!--   </div>
             <!-- /.row -->
-        </div>
+      <!--  </div>
         <!-- /.container -->
-    </section>
+    <!--</section> -->
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <!--<aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -231,7 +288,7 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside>-->
 
 
     <!-- Footer -->
@@ -239,13 +296,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Colônia do Código</strong>
                     </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <p>Brasília, DF</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        <!--<li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>-->
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">contato@coloniadocodigo.com</a>
                         </li>
                     </ul>
                     <br>
@@ -261,7 +317,7 @@
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted">Copyright &copy; Colônia do Código 2017</p>
                 </div>
             </div>
         </div>
