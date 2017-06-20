@@ -157,6 +157,10 @@ hr.small {
 
 /* Header */
 
+.img-header {
+    padding: 5px;
+}
+
 .header {
     display: table;
     position: relative;
@@ -231,6 +235,25 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+/* Contact */
+
+.contact {
+    padding: 50px 0;
+    background-color: #f1d3af;
+}
+
+.formld {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 /* Map */
