@@ -276,6 +276,7 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background-color: #fff;
 }
 
 #to-top {
@@ -283,4 +284,19 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+
+/* Courses pages */
+
+.course-body {
+    background: url(../img/bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.course-body>.header>p {
+  color: #000;
+  font-size: 1.3em;
 }
