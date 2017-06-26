@@ -192,6 +192,14 @@ hr.small {
   color: #6495ff;
   background-color: #FFE4B5;
 }
+
+.dest {
+  color: #e56948;
+}
+
+.dest1 {
+  color: #ffffff;
+}
 /* Services */
 
 .services {
