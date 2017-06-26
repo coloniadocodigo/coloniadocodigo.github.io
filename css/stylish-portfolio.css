@@ -190,6 +190,7 @@ hr.small {
 .part {
   padding: 50px 0;
   color: #6495ff;
+  /*color: #e56948;*/
   background-color: #FFE4B5;
 }
 
@@ -311,8 +312,6 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 }
-
-
 .course-body>.header>p {
   color: #000;
   font-size: 1.3em;
