@@ -38,6 +38,10 @@ body {
 
 /* Custom Button Styles */
 
+.btn-header {
+  font-size: 1.8em;
+}
+
 .btn-dark {
     border-radius: 0;
     color: #fff;
